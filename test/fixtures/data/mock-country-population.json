@@ -1,7 +1,6 @@
  {
      "Brazil":{
         "total_population": {
-            "date": "2019-11-12",
             "population": 215026874
         },
         "country": "Brazil"
@@ -9,14 +8,12 @@
 
     "India": {
         "total_population": {
-            "date": "2019-11-12",
             "population": 215026900
         },
         "country": "India"
     },
     "Error" :{
-        "total_population": {
-        "date": "2019-11-12",       
+        "total_population": {     
         "population": -1,
         "error": "Internal Server Error"
       },

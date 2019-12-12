@@ -102,7 +102,6 @@ describe('country population endpoint tests', () => {
         data.length.should.eql(1);
         data[0].total_population.population.should.eql(215026874);
         data[0].country.should.eql("Brazil");
-        data[0].total_population.date.should.eql(date);
         return done();
       });
     });
@@ -154,7 +153,6 @@ describe('country population endpoint tests', () => {
         
         data[0].total_population.population.should.eql(215026900);
         data[0].country.should.eql("India");
-        data[0].total_population.date.should.eql(date)
         
         return done();
       });
@@ -184,7 +182,6 @@ describe('country population endpoint tests', () => {
         
         data[2].total_population.population.should.eql(-1);
         data[2].country.should.eql("AFRICA");
-        data[2].total_population.date.should.eql(date)
         
         return done();
       });
